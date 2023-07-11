@@ -1,5 +1,7 @@
 # Initial Fantasy Role-Playing Game
 
+Explore your fantasy as an Ogre, Peon, Knight, Archer, Mage, Ranger, Druid, Barbarian, Cleric, Monk, or Bard on the dankest adventure on the web!
+
 To run the RPG game on your computer, you'll need to set up a local development environment and serve the files using a web server. Here's a step-by-step guide to help you get started:
 
 1. Install Node.js: If you haven't already, download and install Node.js from the official website (https://nodejs.org). Node.js includes the npm package manager, which we'll use to set up the development environment.
