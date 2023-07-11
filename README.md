@@ -1,7 +1,7 @@
 # Initial Fantasy
 ## Time to Embark!
 
-Explore your fantasy as an Ogre, Peon, Knight, Archer, Mage, Ranger, Druid, Barbarian, Cleric, Monk, or Bard as you travel across the world of Glagera on your journey to find 7-11.  
+Explore your fantasy as an Ogre, Peon, Knight, Archer, Mage, Ranger, Druid, Barbarian, Cleric, Monk, or Bard as you travel across the world of Glagera on your journey to find a 7-11 and get a slurpee!
 
 ## Setup / Instructions
 To run the RPG game on your computer, you'll need to set up a local development environment and serve the files using a web server. Here's a step-by-step guide to help you get started:
