@@ -1,17 +1,29 @@
 # Initial Fantasy Role-Playing Game
 
-main.ts: This file serves as the entry point for your game. It can handle initializing the game, creating instances of characters, and managing the game loop.
+To run the RPG game on your computer, you'll need to set up a local development environment and serve the files using a web server. Here's a step-by-step guide to help you get started:
 
-enemy.ts: If your game includes enemies or non-playable characters (NPCs), you can create a separate file to define enemy classes. These classes can have their own attack and defend methods and can interact with the player's characters.
+1. Install Node.js: If you haven't already, download and install Node.js from the official website (https://nodejs.org). Node.js includes the npm package manager, which we'll use to set up the development environment.
 
-item.ts: If you have an inventory system or items in your game, you can create a file to define item classes. Items can have various properties, such as name, type, stats, and effects, which can be utilized by characters.
+2. Create a project directory: Create a new directory on your computer where you want to store the RPG game files. You can choose any name for the directory.
 
-battle.ts: If you're implementing a combat system, you can create a file dedicated to managing battles. This file can handle turn-based mechanics, calculating damage, applying status effects, and determining the outcome of battles.
+3. Open a terminal or command prompt: Open a terminal or command prompt window and navigate to the project directory you created.
 
-map.ts: If your game has a map or multiple game areas, you can create a file to define the map and manage player movement and interactions with the environment. This file can handle collision detection, event triggers, and navigation.
+4. Initialize the project: In the terminal, run the following command to initialize a new Node.js project:
 
-quest.ts: If your game includes quests or missions, you can create a file to define quest classes. Quests can have objectives, rewards, and progression tracking. This file can manage quest availability, completion, and tracking the player's progress.
+```
+npm init -y
+```
 
-save.ts: If you want to implement saving and loading game progress, you can create a file to handle saving and loading functions. This file can manage serialization and deserialization of game data, allowing players to save their progress and continue playing from where they left off.
+5. Install a local web server: Install a local web server package like "http-server" using npm. Run the following command in the terminal:
 
-ui.ts: For managing the user interface (UI) of your game, you can create a file to handle UI components, such as menus, buttons, dialogs, and HUD (heads-up display). This file can handle rendering UI elements and responding to player input.
+```
+npm install --save-dev http-server
+```
+
+6. Serve the files: Once the installation is complete, run the following command in the terminal to start the web server and serve the RPG game files:
+
+```
+npx http-server
+```
+
+7. Open the game in a browser: The web server will provide a local URL (e.g., http://localhost:8080) where you can access the RPG game. Open your web browser and enter the provided URL.
