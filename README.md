@@ -4,7 +4,7 @@ To run the RPG game on your computer, you'll need to set up a local development 
 
 1. Install Node.js: If you haven't already, download and install Node.js from the official website (https://nodejs.org). Node.js includes the npm package manager, which we'll use to set up the development environment.
 
-2. Create a project directory: Create a new directory on your computer where you want to store the RPG game files. You can choose any name for the directory.
+2. Clone or downlaod the GitHub repository to your computer. 
 
 3. Open a terminal or command prompt: Open a terminal or command prompt window and navigate to the project directory you created.
 
