@@ -5,6 +5,10 @@ const questButton = document.getElementById("quest-button");
 const settingsButton = document.getElementById("settings-button");
 const dialogBox = document.getElementById("dialog-box");
 const nextDialogButton = document.getElementById("next-dialog-button");
+const introTextElement = document.getElementById("intro-text");
+const playerNameInput = document.getElementById("player-name");
+const characterClassSelect = document.getElementById("character-class");
+const startGameButton = document.getElementById("start-game-button");
 
 // Event listeners for UI interactions
 attackButton.addEventListener("click", handleAttack);
@@ -48,11 +52,6 @@ function handleNextDialog() {
   console.log("Next dialog button clicked!");
 }
 
-// Get references to the UI elements
-const playerNameInput = document.getElementById("player-name");
-const characterClassSelect = document.getElementById("character-class");
-const startGameButton = document.getElementById("start-game-button");
-
 // Function to start the game
 function startGame() {
   // Get player name and character class selection
@@ -70,19 +69,14 @@ function startGame() {
     return;
   }
 
-  // Start the game logic
-  console.log(`Starting game as ${playerName} - ${characterClass} class`);
+  // Generate introductory text based on player name and character class
+  const introText = `Welcome, ${playerName}, the ${characterClass}! You find yourself standing at the entrance of the mystical land of Glagera. The air is filled with anticipation as you prepare to embark on a grand adventure. As a ${characterClass}, you possess unique skills and abilities that will be essential on your journey. Are you ready to step into this enchanting world and fulfill your destiny? Let the epic quest begin!`;
 
-  // Opening Introduction
-  const introMessage = `Welcome, ${playerName}, to the land of Glagera! As a brave ${characterClass}, your journey begins here. Your mission is to travel to the legendary 7-11 and uncover the secrets hidden within. The path ahead will be filled with challenges and adventures. Are you ready to embark on this epic quest?`;
-  
-  // Display the introduction message to the player
-  showDialog(introMessage);
+  // Display the introductory text to the player
+  introTextElement.textContent = introText;
 
+  // Hide the character selection UI and show the game UI
   // Add your game logic here
 }
 
-// Automatically start the game when the page loads
-window.addEventListener("DOMContentLoaded", startGame);
-
-
+startGameButton.addEventListener("click", startGame);
