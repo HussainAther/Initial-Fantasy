@@ -1,7 +1,9 @@
-# Initial Fantasy Role-Playing Game
+# Initial Fantasy
+## Time to Embark!
 
 Explore your fantasy as an Ogre, Peon, Knight, Archer, Mage, Ranger, Druid, Barbarian, Cleric, Monk, or Bard as you travel across the world of Glagera. 
 
+## Setup / Instructions
 To run the RPG game on your computer, you'll need to set up a local development environment and serve the files using a web server. Here's a step-by-step guide to help you get started:
 
 1. Install Node.js: If you haven't already, download and install Node.js from the official website (https://nodejs.org). Node.js includes the npm package manager, which we'll use to set up the development environment.
