@@ -14,22 +14,28 @@ To run the RPG game on your computer, you'll need to set up a local development 
 
 3. Open a terminal or command prompt: Open a terminal or command prompt window and navigate to the project directory you created.
 
-4. Initialize the project: In the terminal, run the following command to initialize a new Node.js project:
+4. Make sure Typescript is installed:
+
+```
+npm install -g typescript
+```
+
+5. Initialize the project: In the terminal, run the following command to initialize a new Node.js project:
 
 ```
 npm init -y
 ```
 
-5. Install a local web server: Install a local web server package like "http-server" using npm. Run the following command in the terminal:
+6. Install a local web server: Install a local web server package like "http-server" using npm. Run the following command in the terminal:
 
 ```
 npm install --save-dev http-server
 ```
 
-6. Serve the files: Once the installation is complete, run the following command in the terminal to start the web server and serve the RPG game files:
+7. Serve the files: Once the installation is complete, run the following command in the terminal to start the web server and serve the RPG game files:
 
 ```
 npx http-server
 ```
 
-7. Open the game in a browser: The web server will provide a local URL (e.g., http://localhost:8080) where you can access the RPG game. Open your web browser and enter the provided URL.
+8. Open the game in a browser: The web server will provide a local URL (e.g., http://localhost:8080) where you can access the RPG game. Open your web browser and enter the provided URL.
